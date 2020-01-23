@@ -20,6 +20,7 @@
                 <th scope="col">E-mail</th>
                 <th scope="col">Referral Code</th>
                 <th scope="col">Created at</th>
+                <th scope="col">Last Login</th>
               </tr>
             </thead>
             <tbody>
@@ -30,6 +31,7 @@
                 <td>{{ user.email }}</td>
                 <td>{{ user.referralCode }}</td>
                 <td>{{ $d(Date.parse(user.createdAt), 'long') }}</td>
+                <td>{{ $d(Date.parse(user.lastLogin), 'long') }}</td>
               </tr>
             </tbody>
           </table>
