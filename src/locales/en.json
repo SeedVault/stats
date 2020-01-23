@@ -1,0 +1,133 @@
+{
+  "validation": {
+    "email": "This value is not a valid email address.",
+    "csrf_token": "Invalid CSRF token.",
+    "greater_than_zero": "This value should be greater than zero.",
+    "option": "The value you selected is not a valid choice.",
+    "regex": "This value is not valid.",
+    "required": "This value should not be blank."
+  },
+  "domain": {
+    "wallet": {
+      "validation": {
+        "wallet_not_found": "Your wallet is missing.",
+        "recipient_not_found": "User not found.",
+        "insufficient_funds": "You do not have enough funds to send this amount.",
+        "self_transfer_error": "You can't send funds to yourself.",
+        "invalid_address": "Invalid address"
+      }
+    },
+    "transaction": {
+      "validation": {
+        "amount_greater_than_minimum": "This value should be greater than 0.00000001"
+      }
+    },
+    "roles": {
+      "user": "User",
+      "developer": "Developer",
+      "publisher": "Publisher"
+    },
+    "user": {
+      "email_address": "E-mail address",
+      "your_email_address": "Your e-mail address",
+      "password": "Password",
+      "your_password": "Your password",
+      "new_password": "New password",
+      "your_new_password": "Your new password",
+      "re_enter_new_password": "Re-enter new password",
+      "your_new_password_again": "Your new password (again)",
+      "first_name": "First name",
+      "your_first_name": "Your first name",
+      "last_name": "Last name",
+      "your_last_name": "Your last name",
+      "username": "Username",
+      "your_username": "Your username",
+      "country": "Country",
+      "your_country": "Your country",
+      "role": "Role",
+      "your_role": "Your role",
+      "validation": {
+        "unique_email": "E-mail already exist.",
+        "unique_username": "Username already exist.",
+        "user_not_found": "User not found.",
+        "email_not_found": "E-mail not found.",
+        "account_disabled": "Account has been disabled.",
+        "account_unverified": "The account has not yet been verified",
+        "invalid_credentials": "Invalid credentials",
+        "code_not_valid": "Code not valid",
+        "passwords_dont_match": "Passwords don't match"
+      }
+    }
+  },
+  "common": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "accept": "Accept",
+    "reject": "Reject",
+    "save": "Save",
+    "continue": "Continue",
+    "previous": "Previous",
+    "please_wait": "Please wait...",
+    "oops": "Oops!",
+    "something_went_wrong": "Something went wrong"
+  },
+  "home": {
+    "title": "Federated Analytics",
+    "subheadline": "Transform raw data into meaningful and useful information to support better business decision making.",
+    "call_to_action": "Access your metrics",
+    "disclaimer": "Disclaimer",
+    "disclaimer_text": "You are participating in a beta test of SEED’s Greenhouse.  By doing so you agree that SEED is not responsible for any lost, damaged, misdirected or other impacts on your data and/or for any damages of any kind caused by any third party data. During this beta test, SEED tokens have no cash or other value and are for experimental purposes only."
+  },
+  "legal": {
+    "tos": {
+      "terms_of_service": "Terms of Service"
+    },
+    "privacy": {
+      "privacy_policy": "Privacy Policy"
+    }
+  },
+  "dashboard": {
+    "balance": "Balance",
+    "latest_transactions": "Latest transactions",
+    "there_are_no_transactions": "There are no transactions",
+    "unknown": "(unknown)",
+    "withdraw": "Withdraw",
+    "deposit": "Deposit",
+    "view_all_transactions": "View all transactions"
+  },
+  "receive": { 
+    "receive": "Receive",
+    "your_wallet_address": "This is your wallet address:",
+    "share_your_address": "Share this with others to receive payments",
+    "copy_wallet_address_to_clipboard": "Copy your wallet address to clipboard"
+  },
+  "send": {
+    "send": "Send",
+    "to_label": "To",
+    "to_placeholder": "Username, email, or wallet address",
+    "amount_label": "Amount",
+    "amount_placeholder": "Amount to send",
+    "sent": "Sent",
+    "please_review": "Please review your transaction",
+    "send_amount_to": "Send {amount} SEED to {to}",
+    "funds_will_be_credited": "The funds will be credited after we get confirmations from the network.",
+    "transaction_id": "Transaction ID",
+    "your_wallet_is_empty": "Your wallet is empty"
+  },
+  "app": {
+    "users": "Users",
+    "dashboard": "Dashboard",
+    "send": "Send",
+    "receive": "Receive",
+    "privacy": "My Data",
+    "transactions": "Transactions",
+    "settings": "Settings",
+    "help": "Help",
+    "sign_out": "Sign Out"
+  },
+  "apps": {
+    "accounts": "My Account",
+    "wallet": "Wallet",
+    "greenhouse": "Greenhouse"
+  }
+}

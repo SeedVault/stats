@@ -1,0 +1,133 @@
+{
+  "validation": {
+    "email": "Este valor no es una dirección de email válida.",
+    "csrf_token": "Token CSRF no válido.",
+    "greater_than_zero": "Este valor debe ser mayor que cero.",
+    "option": "El valor seleccionado no es una opción válida.",
+    "regex": "Este valor no es válido.",
+    "required": "Este valor no debería estar vacío."
+  },
+  "domain": {
+    "wallet": {
+      "validation": {
+        "wallet_not_found": "No se encuentra tu monedero",
+        "recipient_not_found": "Usuario no hallado",
+        "insufficient_funds": "Tu saldo es insuficiente para enviar esta cantidad",
+        "self_transfer_error": "No puedes enviar a tu propia cuenta.",
+        "invalid_address": "Dirección no válida"
+      }
+    },
+    "transaction": {
+      "validation": {
+        "amount_greater_than_minimum": "Este valor debe ser mayor que 0.00000001"
+      }
+    },
+    "roles": {
+      "user": "Usuario",
+      "developer": "Programador",
+      "publisher": "Editor"
+    },
+    "user": {
+      "email_address": "Correo electrónico",
+      "your_email_address": "Tu correo electrónico",
+      "password": "Contraseña",
+      "your_password": "Tu contraseña",
+      "new_password": "Nueva contraseña",
+      "your_new_password": "Tu nueva contraseña",
+      "re_enter_new_password": "Reingrese la nueva contraseña",
+      "your_new_password_again": "Tu nueva contraseña (otra vez)",
+      "first_name": "Nombre",
+      "your_first_name": "Tu mobre",
+      "last_name": "Apellido",
+      "your_last_name": "Tu apellido",
+      "username": "Usuario",
+      "your_username": "Tu usuario",
+      "country": "País",
+      "your_country": "Tu país",
+      "role": "Rol",
+      "your_role": "Tu rol",
+      "validation": {
+        "unique_email": "El e-mail ya existe.",
+        "unique_username": "El nombre de usuario ya existe.",
+        "user_not_found": "El usuario no existe.",
+        "email_not_found": "El e-mail no existe.",
+        "account_disabled": "La cuenta ha sido deshabilitada",
+        "account_unverified": "La cuenta aún no ha sido verificada",
+        "invalid_credentials": "Credenciales no válidas",
+        "code_not_valid": "El código no es válido",
+        "passwords_dont_match": "Las contraseñas son diferentes"
+      }
+    }
+  },
+  "common": {
+    "privacy": "Privacidad",
+    "terms": "Condiciones",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "save": "Guardar",
+    "continue": "Continuar",
+    "previous": "Anterior",
+    "please_wait": "Por favor espera...",
+    "oops": "¡Oops!",
+    "something_went_wrong": "Algo salió mal"
+  },
+  "home": {
+    "title": "Métricas centralizadas",
+    "subheadline": "Transforma los datos en bruto en información significativa y útil para apoyar una mejor toma de decisiones.",
+    "call_to_action": "Ingresa a las estadísticas",
+    "disclaimer": "Aviso legal",
+    "disclaimer_text": "Estás participan en una prueba beta de SEED's Greenhouse. Al hacerlo, aceptas que SEED no se hace responsable por ninguna pérdida, daño, malversación u otro impacto sobre tus datos ni por cualquier daño de cualquier tipo causado por datos de terceros. Durante esta prueba beta, los tokens SEED no tienen dinero en efectivo ni ningún otro valor y solo se usan para fines experimentales."
+  },
+  "legal": {
+    "tos": {
+      "terms_of_service": "Condiciones del Servicio"
+    },
+    "privacy": {
+      "privacy_policy": "Política de Privacidad"
+    }
+  },
+  "dashboard": {
+    "balance": "Saldo",
+    "latest_transactions": "Últimas transacciones",
+    "there_are_no_transactions": "No hay transacciones",
+    "unknown": "(desconocido)",
+    "withdraw": "Retiro",
+    "deposit": "Depósito",
+    "view_all_transactions": "Ver todas las transacciones"
+  },
+  "receive": { 
+    "receive": "Recibir",
+    "your_wallet_address": "Esta es la dirección de tu monedero:",
+    "share_your_address": "Compártela con otras personas para recibir pagos",
+    "copy_wallet_address_to_clipboard": "Copiar tu dirección de monedero al portapapeles"
+  },
+  "send": {
+    "send": "Enviar",
+    "to_label": "Destinatario",
+    "to_placeholder": "Usuario, e-mail ó dirección de monedero",
+    "amount_label": "Cantidad",
+    "amount_placeholder": "Cantidad a enviar",
+    "sent": "Enviado",
+    "please_review": "Por favor verifica tu transacción",
+    "send_amount_to": "Enviar {amount} SEED a {to}",
+    "funds_will_be_credited": "El importe será acreditado cuando se obtenga confirmación por parte de la red.",
+    "transaction_id": "Código de transacción",
+    "your_wallet_is_empty": "Tu monedero está vacío"
+  },
+  "app": {
+    "dashboard": "Inicio",
+    "users": "Usuarios",
+    "send": "Enviar",
+    "receive": "Recibir",
+    "privacy": "Mis Datos",
+    "transactions": "Transacciones",
+    "settings": "Opciones",
+    "help": "Ayuda",
+    "sign_out": "Salir"
+  },
+  "apps": {
+    "accounts": "Mi Cuenta",
+    "wallet": "Wallet",
+    "greenhouse": "Greenhouse"
+  }
+}
